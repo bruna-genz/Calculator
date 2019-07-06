@@ -1,0 +1,155 @@
+body {
+    background-image: url("https://downloops.com/wp-content/uploads/edd/2018/03/MosaicBlue-Flowing-Mosaic-Pattern-Free-Download-Motion-Background-Video-Loop-Sample2.jpg");
+}
+
+.title {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 380px;
+    height: 420px;
+    border:  gray;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: gray;
+    box-shadow: 0 0 20px black;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+    grid-gap: 1px;
+    grid-template-areas: 
+        "x x x x"
+        "a b c d"
+        "e f g r"
+        "h i j q"
+        "k l m q"
+        "n o p q"
+}
+
+button {
+    background-color: #4d4b4b; /* Green */
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 3px 3px;
+    cursor: pointer;
+    box-shadow: 0 0 2px black;
+}
+
+button:active {
+    box-shadow: 0 0 3px #666;
+    transform: translateY(2px);
+  }
+
+.display {
+    grid-area: x;
+    height: 70px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(126, 138, 141);
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 3px 3px;
+    background-color: rgb(58, 53, 53);
+    text-align: right;
+    cursor: default;
+    position: relative;
+}
+
+#downNumber {
+    position: absolute;
+    right: 20px;
+    top: 38px;
+    font-size: 22px;
+    color: rgb(201, 207, 209);
+}
+
+.special { 
+    background-color: rgb(50, 74, 90);
+}
+
+.one {
+    grid-area: k;
+}
+
+.two {
+    grid-area: l;
+}
+
+.three {
+    grid-area: m;
+}
+
+.four {
+    grid-area: h;
+}
+
+.five {
+    grid-area: i;
+}
+
+.six {
+    grid-area: j;
+}
+
+.seven {
+    grid-area: e;
+}
+
+.eight {
+    grid-area: f;
+}
+
+.nine {
+    grid-area: g;
+}
+
+.zero {
+    grid-area: o;
+}
+
+.plus {
+    grid-area: a;
+}
+
+.minus {
+    grid-area: b;
+}
+
+.times {
+    grid-area: c;
+}
+
+.divisor {
+    grid-area: d;
+}
+
+.equal {
+    grid-area: q;
+    font-size: 30px;
+    background-color: rgb(51, 108, 146);
+}
+
+.point {
+    grid-area: n;
+}
+
+.clear {
+    grid-area: p;
+}
+
+.backspace {
+    grid-area: r;
+}
+
