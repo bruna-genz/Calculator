@@ -4,7 +4,7 @@ This project is a basic calculator. It's part of [The Odin Project](https://www.
 
 ## Usage
 
-Operations can be done either clicking on the calculator's buttons or using the keybord. On the keybord, enter returns the result. Multiple operator can be done sequentially. 
+Operations can be done either clicking on the calculator's buttons or using the keybord. On the keybord, enter returns the result. Multiple operattions can be done sequentially. 
 
 ## Preview
 
